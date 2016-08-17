@@ -2,10 +2,6 @@
 
 import os, sys, time, random, string
 
-<<<<<<< ac4fd68e2f0de672761c2a38b9494dc652873231
-#~ non_chrs = string.lowercase + string.whitespace
-#~ chrs = [chrc for chrc in string.printable if chrc not in non_chrs]
-=======
 class bg:
     default = '\033[00m'
     red =  '\033[31m' + '\033[01m'
@@ -22,7 +18,6 @@ class bg:
     bluishb = '\033[46m'
     purpleb = '\033[45m'
 
->>>>>>> Update
 chrs = string.digits + string.uppercase
 
 def randomkey(length):
